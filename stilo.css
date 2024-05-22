@@ -1,0 +1,324 @@
+body {
+    background: linear-gradient(to bottom, #010a16, #2f596e);
+    display: flex;
+}
+
+@media (orientation: landscape) {
+
+  body {flex-direction: row;}
+}
+
+@media (orientation: portrait) {
+
+  body {flex-direction: column;}
+}
+
+
+.logonicolas {margin-right: 200px;
+width: 160px;
+margin-top: 460px;
+margin-right: 490px;;}
+
+@media screen and (max-width: 763px) {
+  .logonicolas{
+     margin-bottom: 100px;
+      
+
+  }}
+
+  @media screen and (max-width: 737px) {
+    .logonicolas{
+       margin-top: 350px;
+  
+    }}
+
+
+.logohtml{width: 40px;
+  margin-bottom: 490px;
+  margin-top: 60px;
+  margin-right: 600px;
+position: absolute;
+
+
+}
+
+
+@media screen and (max-width: 763px) {
+  .logohtml{
+     margin-top: 150px;
+      
+
+  }}
+
+  @media screen and (max-width: 737px) {
+    .logohtml{margin-top: 250px;
+       
+  
+    }}
+
+
+.logocss {width: 40px;
+  margin-top: 60px;
+  margin-bottom: 490px;
+  margin-right: 490px;
+  position: absolute;
+
+
+
+}
+
+@media screen and (max-width: 763px) {
+  .logocss{
+     margin-top: 150px;
+      
+
+  }}
+
+  @media screen and (max-width: 737px) {
+    .logocss{margin-top: 250px;
+       
+  
+    }}
+
+
+.titulo{
+  margin-right: 210px;
+  margin-bottom: 290px;
+  margin-top: 60px;
+  
+  font-size: 14px;
+  font-style: normal;
+  white-space: nowrap;
+text-align: justify;
+font-family: 'GetVoIP Grotesque', sans-serif;
+position:absolute;}
+
+        @media screen and (max-width: 763px) {
+    .titulo {
+         margin-top: 100px;
+      
+
+  }}
+
+
+
+
+.resumo {margin-right: 210px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  color: #010a16; 
+  font-size: 14px;
+  font-style: normal;
+  white-space: nowrap;
+text-align: justify;
+font-family: 'GetVoIP Grotesque', sans-serif;
+text-indent: 20px;
+position:absolute;
+}
+
+        @media screen and (max-width: 763px) {
+    .resumo {
+     margin-top: 100px;
+      
+
+  }}
+
+
+.resumo2{
+  margin-right: 210px;
+    margin-top: 100px;
+    color: #010a16; 
+    font-size: 14px;
+    font-style: normal;
+    white-space: nowrap;
+  text-align: justify;
+  font-family: 'GetVoIP Grotesque', sans-serif;
+  text-indent: 20px;
+  position:absolute;
+  }
+
+
+
+  
+                
+
+.fundo2{ background-color: white
+;
+    margin-left: 350px;
+    margin-top: 70px;
+    width: 675px;
+    height:510px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GetVoIP Grotesque', sans-serif;
+    font-size: 10px;
+}
+
+          @media screen and (max-width: 1095px) {
+           .fundo2 {
+      margin-left: 290px ;
+      
+
+    }}
+
+          @media screen and (max-width: 1032px) {
+    .fundo2 {
+        margin-left: 227px ;
+        
+  
+    }}
+
+          @media screen and (max-width: 969px) {
+      .fundo2 {
+          margin-left: 164px ;
+          
+    
+     }}
+  
+         @media screen and (max-width: 906px) {
+        .fundo2 {
+            margin-left: 101px ;
+            
+      
+    }}
+    
+         @media screen and (max-width: 843px) {
+      .fundo2 {
+          margin-left: 38px ;
+              
+      
+      
+    }}
+  
+          @media screen and (max-width: 782px) {
+      .fundo2 {
+     margin-left: 20px ;
+                
+          
+    }}
+
+
+           @media screen and (max-width: 763px) {
+        .fundo2 {
+      margin-left: 10px ;
+      height: 400px;
+                  
+            
+     }}
+
+             @media screen and (max-width: 641px) {
+          .fundo2 {
+        height: 200px;
+                    
+              
+      }}
+
+             @media screen and (max-width: 737px) {
+            .fundo2 {
+            height: 190px;
+            margin-top: 150px;
+                      
+                
+      }}
+
+
+             @media screen and (max-width: 737px) {
+              .fundo2 {
+            height: 300px;
+                        
+      }}
+                  
+               @media screen and (max-width: 737px) {
+              .fundo2 {
+              height: 300px;
+                          
+                          
+                    
+       }}
+                    
+
+
+
+                
+.fundo3 { 
+    margin-bottom: 20px;
+
+width: 210px;
+height: 400px;
+margin-left: 510px;
+background-color:  #242930;
+border-radius: 10px;
+padding: 20px;
+padding-top: 20px;
+color: whitesmoke;
+font-size: 15px;
+position:absolute;
+
+}
+
+
+
+
+.email{
+border-radius:20px;
+padding: 5px;
+width: 200px;}
+
+
+
+.telefone{
+border-radius:20px;
+padding:5px;
+padding-left: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .input-field {
+    border-radius:20px;
+padding:5px;
+padding-left: 10px;
+margin: 5px;
+width: 90px; 
+  }
+
+
+  .form-container2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .input-field2 {
+
+    border-radius:20px;
+padding:2px;
+padding-left: 10px;
+margin: 5px;
+width: px; 
+  }
+
+h4 {font-size: 12px;}
+
+.logolink { width: 100px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+
+
+}
+
+  .logogit {  width: 100px;
+   margin-bottom: 37px;
+  
+
+}
+
+
+ 
+
+           
+                
